@@ -352,13 +352,6 @@ body {
   width: device-width;
 }
 
-
-.gf *,
-.gf *::before,
-.gf *::after {
-  box-sizing: inherit;
-}
-
 .gf-container {
   width: 100%;
   max-width: 1200px;
