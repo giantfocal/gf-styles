@@ -1,0 +1,55 @@
+.gfslick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.gfslick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.gfslick-list:focus{outline:0}.gfslick-list.dragging{cursor:pointer;cursor:hand}.gfslick-slider .gfslick-list,.gfslick-slider .gfslick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.gfslick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.gfslick-track:after,.gfslick-track:before{display:table;content:''}.gfslick-track:after{clear:both}.gfslick-loading .gfslick-track{visibility:hidden}.gfslick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .gfslick-slide{float:right}.gfslick-slide img{display:block}.gfslick-slide.gfslick-loading img{display:none}.gfslick-slide.dragging img{pointer-events:none}.gfslick-initialized .gfslick-slide{display:block}.gfslick-loading .gfslick-slide{visibility:hidden}.gfslick-vertical .gfslick-slide{display:block;height:auto;border:1px solid transparent}.gfslick-arrow.gfslick-hidden{display:none}
+/*# sourceMappingURL=gfslick.min.css.map */
+.gfslick-slider .gfslick-prev,
+.gfslick-slider .gfslick-next {
+  height: 40px;
+}
+.gfslick-slider .gfslick-prev:before {
+  content: "\f104";
+  font-family: fontawesome;
+  font-size: 40px;
+  height: 40px;
+  line-height: 1;
+  color: #222;
+  
+}
+.gfslick-slider .gfslick-next:before {
+  content: "\f105";
+  font-family: fontawesome;
+  font-size: 40px;
+  height: 35px;
+  line-height: 1;
+  color: #222;
+}
+
+.gfslick-slider.gfslick-slider-arrow-white .gfslick-prev:before,
+.gfslick-slider.gfslick-slider-arrow-white .gfslick-next:before {
+  color: #fff;
+}
+
+
+/* Button */
+
+.gfslick-slider .gfslick-dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #222;
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+.gfslick-slider .gfslick-dots li.gfslick-active {
+  opacity: 1;
+}
+.gfslick-slider .gfslick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.gfslick-slider .gfslick-dots li button:before {
+  display: none!important;
+}
+
+.gfslick-slider-dot-white.gfslick-slider .gfslick-dots li button {
+  background: #fff;
+}
