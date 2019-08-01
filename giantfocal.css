@@ -613,7 +613,7 @@
   list-style: none;
   padding: 0;
  }
- .gf form.hs-form fieldset.form-columns-1 .hs-input {
+ .gf form.hs-form fieldset.form-columns-1 .hs-input:not[type="checkbox"]) {
   width: 100%;
  }
 
