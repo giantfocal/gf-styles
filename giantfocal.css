@@ -446,7 +446,6 @@
  }
 
  /* Form */
-
  /* Form Field */
  .gf .hs-form-field {
   margin-bottom: 15px;
@@ -643,6 +642,11 @@
  }
  :-ms-input-placeholder { /* IE10 */
   color: var(--base);
+ }
+
+ /* Form multiple-columns */
+ .gf form.hs-form fieldset.form-columns-3 > div {
+   width: 33.33%;
  }
 
  
