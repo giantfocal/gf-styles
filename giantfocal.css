@@ -526,6 +526,10 @@
   border-color: var(--primary);
  }
 
+ .gf .hs_submit {
+  margin-top: 20px;
+ }
+
  .gf input[type="submit"],
  .gf form.hs-form .hs_submit input {
   -webkit-appearance: none;
