@@ -133,6 +133,16 @@
 .gf textarea {}
 .gf textarea:focus {}
 
+/* Separate Styles for Select Input */
+.gf label.hs-form-booleancheckbox-display {
+  display: flex;
+}
+.gf input[type="checkbox"] {
+  margin-right: .25em;
+  font-size: 1em;
+  margin-top: .25em;
+}
+
 /* Separate Styles for Drop Downs */
 .gf select {
 	-webkit-appearance: none;
