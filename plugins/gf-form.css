@@ -18,6 +18,11 @@
 .gf .hs-form-field > label {}
 .gf .hs-form-field .input {
 }
+
+.gf .hubspot-link__container {
+  display: none;
+}
+
 /* One Line Inputs */
 .gf input[type="text"],
 .gf input[type="password"],
