@@ -15,7 +15,10 @@
 	max-width: 100%;
 }
 
-.gf .hs-form-field > label {}
+.gf .hs-form-field > label {
+	display: block;
+	text-align: left;
+}
 .gf .hs-form-field .input {
 }
 
@@ -85,7 +88,7 @@
 	outline: none;
 	background: var(--primary);
 	color: #fff;
-	border: 1px solid;
+	border: 1px solid var(--primary);
 	transition: all linear 300ms;
 	cursor: pointer;
 }
@@ -95,7 +98,9 @@
 	color: #fff;
 }
 .gf form.hs-form ul.hs-error-msgs {
+	display: block;
 	margin: 5px 0px 0px;
+	text-align: left;
 }
 .gf form.hs-form ul.hs-error-msgs label {
 	font-size: 14px;
