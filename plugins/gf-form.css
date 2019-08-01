@@ -44,6 +44,8 @@
 .gf input[type="file"],
 .gf textarea,
 .gf select {
+	-webkit-appearance: none;
+	appearance: none;
 	width: 100%;
 	display: block;
 	height: auto;
@@ -84,7 +86,7 @@
 	width: 100%;
 	text-align: center;
 	padding: 10px 15px;
-	line-height: 1.4;
+	line-height: 1.1;
 	outline: none;
 	background: var(--primary);
 	color: #fff;
