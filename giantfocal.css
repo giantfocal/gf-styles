@@ -545,6 +545,7 @@
   border-radius: 3px;
   transition: all linear 300ms;
   cursor: pointer;
+  font-weight: bold;
  }
  .gf input[type="submit"]:hover,
  .gf form.hs-form .hs_submit input:hover {
@@ -587,6 +588,8 @@
 
  /* Separate Styles for Select Input */
  .gf label.hs-form-booleancheckbox-display {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
  }
  .gf input[type="checkbox"] {
