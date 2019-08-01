@@ -83,7 +83,7 @@
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	padding: 15px 20px;
+	padding: 10px 15px;
 	line-height: 1.4;
 	outline: none;
 	background: var(--primary);
@@ -95,6 +95,7 @@
 .gf input[type="submit"]:hover,
 .gf form.hs-form .hs_submit input:hover {
 	background: var(--secondary);
+	border-color: var(--secondary);
 	color: #fff;
 }
 .gf form.hs-form ul.hs-error-msgs {
