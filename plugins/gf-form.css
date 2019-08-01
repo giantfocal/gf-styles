@@ -1,0 +1,160 @@
+/* Form Field */
+.gf .hs-form-field {
+	margin-bottom: 15px;
+}
+
+/* Descriptions */
+.gf .hs-field-desc {}
+
+/* Labels */
+.gf label {
+	margin-bottom: 5px;
+}
+.gf form.hs-form fieldset {
+	max-width: 100%;
+}
+
+.gf .hs-form-field > label {}
+.gf .hs-form-field .input {
+}
+/* One Line Inputs */
+.gf input[type="text"],
+.gf input[type="password"],
+.gf input[type="datetime"],
+.gf input[type="datetime-local"],
+.gf input[type="date"],
+.gf input[type="month"],
+.gf input[type="time"],
+.gf input[type="week"],
+.gf input[type="number"],
+.gf input[type="email"],
+.gf input[type="url"],
+.gf input[type="search"],
+.gf input[type="tel"],
+.gf input[type="color"],
+.gf input[type="file"],
+.gf textarea,
+.gf select {
+	width: 100%;
+	display: block;
+	height: auto;
+	padding: 10px 15px;
+	color: inherit;
+	background: none;
+	background-image: none;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+.gf input[type="text"]:focus,
+.gf input[type="password"]:focus,
+.gf input[type="datetime"]:focus,
+.gf input[type="datetime-local"]:focus,
+.gf input[type="date"]:focus,
+.gf input[type="month"]:focus,
+.gf input[type="time"]:focus,
+.gf input[type="week"]:focus,
+.gf input[type="number"]:focus,
+.gf input[type="email"]:focus,
+.gf input[type="url"]:focus,
+.gf input[type="search"]:focus,
+.gf input[type="tel"]:focus,
+.gf input[type="color"]:focus,
+.gf input[type="file"]:focus,
+.gf textarea:focus,
+.gf select:focus {
+	outline: 0;
+	border-color: var(--primary);
+}
+
+.gf input[type="submit"],
+.gf form.hs-form .hs_submit input {
+	-webkit-appearance: none;
+	appearance: none;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 15px 20px;
+	line-height: 1.4;
+	outline: none;
+	background: var(--primary);
+	color: #fff;
+	border: 1px solid;
+	transition: all linear 300ms;
+	cursor: pointer;
+}
+.gf input[type="submit"]:hover,
+.gf form.hs-form .hs_submit input:hover {
+	background: var(--secondary);
+	color: #fff;
+}
+.gf form.hs-form ul.hs-error-msgs {
+	margin: 5px 0px 0px;
+}
+.gf form.hs-form ul.hs-error-msgs label {
+	font-size: 14px;
+}
+@media (max-width: 767px) {
+	.gf input[type="submit"] {
+		display: block;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.gf form.hs-form fieldset > .hs-form-field:last-child > div {
+			margin-right: 0px;
+	}
+}
+@media (max-width: 400px), (max-device-width: 480px) and (min-device-width: 320px) {
+	.gf form.hs-form .form-columns-2 .hs-form-field .hs-input,
+	.gf form.hs-form .form-columns-3 .hs-form-field .hs-input {
+		width: 100%;
+	}
+	.gf form.hs-form .hs_submit .actions {
+		padding-right: 8px;
+	}
+}
+
+/* Separate Styles for Multiple Line Inputs */
+.gf textarea {}
+.gf textarea:focus {}
+
+/* Separate Styles for Drop Downs */
+.gf select {}
+.gf select:focus {}
+
+/* Multiple Selection Inputs */
+.gf form.hs-form .hs-form-field ul.inputs-list {
+	list-style: none;
+	padding: 0;
+}
+.gf form.hs-form fieldset.form-columns-1 .hs-input {
+	width: 100%;
+}
+
+.gf form.hs-form .hs-form-field ul.inputs-list li input {}
+.gf input[type="radio"] {}
+.gf input[type="checkbox"] {}
+
+/* Required */
+.gf input:focus:required:invalid,
+.gf textarea:focus:required:invalid,
+.gf select:focus:required:invalid {}
+
+.gf input:focus:required:invalid:focus,
+.gf textarea:focus:required:invalid:focus,
+.gf select:focus:required:invalid:focus {}
+
+/* Placeholder Text */
+::-webkit-input-placeholder { /* Webkit Browsers */
+	color: inherit;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: inherit;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: inherit;
+}
+:-ms-input-placeholder { /* IE10 */
+	color: inherit;
+}
