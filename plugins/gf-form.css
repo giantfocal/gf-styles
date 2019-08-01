@@ -54,6 +54,7 @@
 	background-image: none;
 	color: var(--base);
 	border: 1px solid;
+	border-radius: 0;
 }
 
 .gf input[type="text"]:focus,
@@ -133,7 +134,14 @@
 .gf textarea:focus {}
 
 /* Separate Styles for Drop Downs */
-.gf select {}
+.gf select {
+	-webkit-appearance: none;
+	background: url(https://cdn2.hubspot.net/hubfs/2333817/GiantFocal_Marketplace/_Assets/images/icon_arrow.png) #fff;
+	background-position: calc(100% - 15px) center;
+	background-repeat: no-repeat;
+	background-size: 12px;
+	padding-right: 17px;
+}
 .gf select:focus {}
 
 /* Multiple Selection Inputs */
