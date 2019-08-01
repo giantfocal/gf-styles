@@ -52,7 +52,6 @@
 	padding: 10px 15px;
 	background: #fff;
 	background-image: none;
-	border-radius: 5px;
 	color: var(--base);
 	border: 1px solid;
 }
@@ -161,14 +160,14 @@
 
 /* Placeholder Text */
 ::-webkit-input-placeholder { /* Webkit Browsers */
-	color: inherit;
+	color: var(--base);
 }
 :-moz-placeholder { /* Firefox 18- */
-	color: inherit;
+	color: var(--base);
 }
 ::-moz-placeholder { /* Firefox 19+ */
-	color: inherit;
+	color: var(--base);
 }
 :-ms-input-placeholder { /* IE10 */
-	color: inherit;
+	color: var(--base);
 }
