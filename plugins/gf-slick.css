@@ -2,54 +2,57 @@
 /*# sourceMappingURL=gfslick.min.css.map */
 .gfslick-slider .gfslick-prev,
 .gfslick-slider .gfslick-next {
-  height: 40px;
+    height: 40px;
 }
 .gfslick-slider .gfslick-prev:before {
-  content: "\f104";
-  font-family: fontawesome;
-  font-size: 40px;
-  height: 40px;
-  line-height: 1;
-  color: #222;
-  
+    content: "\f104";
+    font-family: fontawesome;
+    font-size: 40px;
+    height: 40px;
+    line-height: 1;
+    color: inherit;
 }
 .gfslick-slider .gfslick-next:before {
-  content: "\f105";
-  font-family: fontawesome;
-  font-size: 40px;
-  height: 35px;
-  line-height: 1;
-  color: #222;
+    content: "\f105";
+    font-family: fontawesome;
+    font-size: 40px;
+    height: 35px;
+    line-height: 1;
+    color: inherit;
 }
 
 .gfslick-slider.gfslick-slider-arrow-white .gfslick-prev:before,
 .gfslick-slider.gfslick-slider-arrow-white .gfslick-next:before {
-  color: #fff;
+    color: #fff;
 }
 
 
 /* Button */
 
 .gfslick-slider .gfslick-dots li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: #222;
-  opacity: 0.5;
-  transition: 0.2s ease;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #333;
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+.gf-color-white .gfslick-slider .gfslick-dots li {
+    background: #fff;
 }
 .gfslick-slider .gfslick-dots li.gfslick-active {
-  opacity: 1;
+    opacity: 1;
 }
 .gfslick-slider .gfslick-dots li button {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
 }
 .gfslick-slider .gfslick-dots li button:before {
-  display: none!important;
+    display: none!important;
 }
 
 .gfslick-slider-dot-white.gfslick-slider .gfslick-dots li button {
-  background: #fff;
+    background: #fff;
 }
