@@ -12,7 +12,6 @@
 	-ms-transform: translate(0, -50%);
 	transform: translate(0, -50%);
 	cursor: pointer;
-	color: transparent;
 	border: none;
 	outline: 0!important;
 	background: 0 0;
@@ -23,7 +22,7 @@
 .gfslick-next:hover,
 .gfslick-prev:focus,
 .gfslick-prev:hover {
-	color: transparent;
+	color: inherit;
 	outline: 0!important;
 	background: 0 0;
 }
