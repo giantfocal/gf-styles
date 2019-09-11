@@ -433,15 +433,15 @@
 }
 
 /* Colors */
-.gf-color-white,
-.gf-color-white h1,
-.gf-color-white h2,
-.gf-color-white h3,
-.gf-color-white h4,
-.gf-color-white h5,
-.gf-color-white h6,
-.gf-color-white p,
-.gf-color-white li {
+.gf .gf-color-white,
+.gf .gf-color-white h1,
+.gf .gf-color-white h2,
+.gf .gf-color-white h3,
+.gf .gf-color-white h4,
+.gf .gf-color-white h5,
+.gf .gf-color-white h6,
+.gf .gf-color-white p,
+.gf .gf-color-white li {
 	color: #fff;
 }
 
