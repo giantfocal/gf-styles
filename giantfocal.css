@@ -466,6 +466,9 @@
 	display: block;
 	text-align: left;
 }
+.gf .hs-form-field > label p {
+	margin: 0;
+}
 .gf .hs-form-field .input {
 }
 
