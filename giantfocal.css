@@ -468,6 +468,7 @@
 }
 .gf .hs-form-field > label p {
 	margin: 0;
+	display: inline-block;
 }
 .gf .hs-form-field .input {
 }
